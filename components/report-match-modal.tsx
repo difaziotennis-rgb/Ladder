@@ -137,7 +137,7 @@ export function ReportMatchModal({ clubId }: { clubId: string | null }) {
               <SelectContent>
                 {availableWinners.map((player) => (
                   <SelectItem key={player.id} value={player.id}>
-                    {player.name} ({player.skill_level})
+                    {player.name}
                   </SelectItem>
                 ))}
               </SelectContent>
@@ -156,7 +156,7 @@ export function ReportMatchModal({ clubId }: { clubId: string | null }) {
               <SelectContent>
                 {availableLosers.map((player) => (
                   <SelectItem key={player.id} value={player.id}>
-                    {player.name} ({player.skill_level})
+                    {player.name}
                   </SelectItem>
                 ))}
               </SelectContent>
